@@ -35,7 +35,7 @@ function procesarUsuarios(usuario){
     console.log(" ");
 }
 
-let usuario1 = new Usuario('Cosme', 'Fulanito', [], ['Black', 'Rokcy']);
+let usuario1 = new Usuario('Cosme', 'Fulanito', [], ['Black', 'Rocky']);
 
 usuario1.addBook('Hábitos Atómicos', 'James Clear');
 usuario1.addBook('De qué hablo cuando hablo de Escribir', 'Haruki Murakami');
@@ -57,7 +57,7 @@ usuario4.addBook('100 Años de Soledad', 'Gabriel Garcia Marquez');
 usuario4.addBook('Yo, Mi, Me... contigo', 'David Safier');
 usuario4.addBook('Así se escribe un cuento', 'Mempo Gardinelli');
 usuario4.addMascota('Black');
-usuario4.addMascota('Rokcy');
+usuario4.addMascota('Rocky');
 usuario2.addMascota('Inoue');
 usuario2.addMascota('Demian');
 usuario2.addMascota('Selina');
