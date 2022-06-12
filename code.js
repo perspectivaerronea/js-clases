@@ -32,7 +32,7 @@ function procesarUsuarios(usuario){
     console.log(usuario.getFullName());        
     console.log(usuario.countMascotas());
     console.log(usuario.getBooksNames());
-    console.log("");
+    console.log(" ");
 }
 
 let usuario1 = new Usuario('Cosme', 'Fulanito', [], ['Black', 'Rokcy']);
