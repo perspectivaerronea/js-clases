@@ -32,12 +32,14 @@ function procesarUsuarios(usuario){
     console.log(usuario.getFullName());        
     console.log(usuario.countMascotas());
     console.log(usuario.getBooksNames());
+    console.log("");
 }
 
 let usuario1 = new Usuario('Cosme', 'Fulanito', [], ['Black', 'Rokcy']);
 
 usuario1.addBook('Hábitos Atómicos', 'James Clear');
 usuario1.addBook('De qué hablo cuando hablo de Escribir', 'Haruki Murakami');
+
 
 let usuario2 = new Usuario('Juan', 'Perez', [{nombre:'100 Años de Soledad', autor:'Gabriel Garcia Marquez'}, {nombre:'Yo, Mi, Me... contigo', autor:'David Safier'}]);
 
