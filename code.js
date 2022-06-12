@@ -49,6 +49,20 @@ usuario2.addMascota('Selina');
 
 let usuario3 = new Usuario('Jazmin', 'Gutierrez');
 
+let usuario4 = new Usuario('Margarita', 'Padin');
+
+usuario4.addBook('Hábitos Atómicos', 'James Clear');
+usuario4.addBook('De qué hablo cuando hablo de Escribir', 'Haruki Murakami');
+usuario4.addBook('100 Años de Soledad', 'Gabriel Garcia Marquez');
+usuario4.addBook('Yo, Mi, Me... contigo', 'David Safier');
+usuario4.addBook('Así se escribe un cuento', 'Mempo Gardinelli');
+usuario4.addMascota('Black');
+usuario4.addMascota('Rokcy');
+usuario2.addMascota('Inoue');
+usuario2.addMascota('Demian');
+usuario2.addMascota('Selina');
+
 procesarUsuarios(usuario1);
 procesarUsuarios(usuario2);
 procesarUsuarios(usuario3);
+procesarUsuarios(usuario4);
